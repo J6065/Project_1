@@ -4,11 +4,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-Diagram(https://github.com/J6065/Project_1/blob/master/Images/Network_Diagram.drawio.pdf)
+-Diagram(https://github.com/J6065/Project_1/blob/master/Images/Network_Diagram.drawio.pdf)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _playbook_ file may be used to install only certain pieces of it, such as Filebeat.
 
-- _TODO: Enter the playbook file._
+-Playbook file(https://github.com/J6065/Project_1/tree/master/Playbooks)
 
 This document contains the following details:
 
@@ -36,7 +36,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - _TODO: What does Metricbeat record?_ Metricbeat detects changes in system metrics, such as CPU usage. We use it to detect SSH login attempts, failed `sudo` escalations, and CPU/RAM statistics.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -85,7 +84,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+Screenshot of docker ps output](https://github.com/J6065/Project_1/blob/master/Images/docker_ps.PNG)
 
 ### Target Machines & Beats
 
@@ -100,7 +99,7 @@ I have installed Filebeat and Metricbeat.
 
 These Beats allow us to collect the following information from each machine:
 
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see._
 Filebeat monitors changes to the filesystem. Metricbeat looks for changes in system metrics and to detect SSH login attempts, `sudo` escalations, and CPU/RAM statistics.
 
 ### Using the Playbook
