@@ -2,8 +2,11 @@
 
 ## Table of Contents
 
-* REDAME.md
-* Images(Kibana sample data walkthrough and Network Diagram)
+* REDAME.md(https://github.com/J6065/Project_1/blob/master/README.md)
+* Images:
+  * Network Diagram(https://github.com/J6065/Project_1/tree/master/Images)
+  * Kibana sample data walkthrough (https://github.com/J6065/Project_1/tree/master/Kibana)
+* YAML Playbooks(https://github.com/J6065/Project_1/tree/master/Playbooks)
 
 ## General Info
 
