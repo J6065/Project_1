@@ -1,0 +1,47 @@
+In the last 7 days, how many unique visitors were located in India?  --250--
+
+In the last 24 hours, of the visitors from China, how many were using Mac OSX?  --8--
+
+In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors?  --404:9.091% --503:9.091%
+
+In the last 7 days, what country produced the majority of the traffic on the website?  --China: 314 web log count
+
+Of the traffic that's coming from that country, what time of day had the highest amount of activity?  --1:00pm-2:00pm
+
+List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
+--gz  :.gz files are compressed files created using the gzip compression utility.
+--css :.css files can help define font, size, color, spacing, border and location of HTML information on a webpage. They are downloaded with their .html counterparts and rendered by the browser.
+--zip : A lossless compression format. A .zip file may contain one or more files or directories that have been compressed.
+--deb :A file with the .deb file extension is a Debian (Linux) Software Package file. These files are installed when using the apt package manager.
+--rpm :.rpm file formats are a Red Hat Software Package file. RPM stands for Red Hat Package Manager.
+
+Locate the time frame in the last 7 days with the most amount of bytes (activity).
+In your own words, is there anything that seems potentially strange about this activity?
+--Questionable activity on 2022-04-24-18:00, one user and 15,709 ave bites, way out of range for other users.
+
+
+What is the timestamp for this event?  --Apr24,2022@18:00:00.0 => Apr24,2022@21:00:00.0
+
+What kind of file was downloaded?  --RPM
+
+From what country did this activity originate?  --India
+
+What HTTP response codes were encountered by this visitor?  --200; 100%
+
+What is the source IP address of this activity?  --35.143.166.159
+
+What are the geo coordinates of this activity?  --{ "lat": 43.34121, "lon": -73.6103075 }
+
+What OS was the source machine running?  --windows 8
+
+What is the full URL that was accessed?--https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.3.2-i686.rpm
+
+From what website did the visitor's traffic originate?  --http://facebook.com/success/jay-c-buckey
+
+Finish your investigation with a short overview of your insights.
+
+What do you think the user was doing?  --Appears to be someone downloading a linux file from a website being monitored, a metricbeats file.
+
+Was the file they downloaded malicious? If not, what is the file used for? --Linux packages aren't typically dangerous, depending on the source.
+
+Was there anything that seems suspicious about this activity? Is any of the traffic you inspected potentially outside of compliance guidelines?  --Yes, the Facebook origination website is very strange and potentially out of compliance guidlines to post update links on Facebook.
