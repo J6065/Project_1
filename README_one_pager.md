@@ -17,7 +17,7 @@ The following is a the documents, images, and information on a basic Azure cloud
 This project was created with:
 
 * Azure
-  * Load Banancer
+  * Load Balancer
   * 2 Web servers
   * 1 Jump box provisioner
   * 1 ELK server
